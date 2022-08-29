@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/app_background"
+    android:padding="@dimen/padding_8">
+
+    <!--<ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lv_list"
+        android:layout_margin="@dimen/margin_20"
+        android:divider="@color/purple_700"
+        android:dividerHeight="8dp"
+        android:padding="@dimen/padding_4"
+        android:background="@drawable/list_border" />-->
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="( 1 ) Create “hello world” application"
+        android:textColor="@color/purple_700"
+        android:textStyle="bold"
+        android:textSize="@dimen/txt_12"
+        android:textAlignment="textStart"
+        android:background="@drawable/btn_whitebg"
+        android:layout_marginTop="@dimen/margin_20"
+        android:padding="@dimen/padding_4" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="( 2 ) Change screen background color on different button click event"
+        android:textColor="@color/purple_700"
+        android:textStyle="bold"
+        android:textSize="@dimen/txt_12"
+        android:textAlignment="textStart"
+        android:background="@drawable/btn_whitebg"
+        android:layout_marginTop="@dimen/margin_10"
+        android:padding="@dimen/padding_4" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="( 3 ) Navigate between one screen to another screen"
+        android:textColor="@color/purple_700"
+        android:textStyle="bold"
+        android:textSize="@dimen/txt_12"
+        android:textAlignment="textStart"
+        android:background="@drawable/btn_whitebg"
+        android:layout_marginTop="@dimen/margin_10"
+        android:padding="@dimen/padding_4" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="( 4 ) Pass data from one screen to second screen"
+        android:textColor="@color/purple_700"
+        android:textStyle="bold"
+        android:textSize="@dimen/txt_12"
+        android:textAlignment="textStart"
+        android:background="@drawable/btn_whitebg"
+        android:layout_marginTop="@dimen/margin_10"
+        android:padding="@dimen/padding_4" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="( 5 ) Design login and registration screen"
+        android:textColor="@color/purple_700"
+        android:textStyle="bold"
+        android:textSize="@dimen/txt_12"
+        android:textAlignment="textStart"
+        android:background="@drawable/btn_whitebg"
+        android:layout_marginTop="@dimen/margin_10"
+        android:padding="@dimen/padding_4" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="( 6 ) What is R.java file"
+        android:textColor="@color/purple_700"
+        android:textStyle="bold"
+        android:textSize="@dimen/txt_12"
+        android:textAlignment="textStart"
+        android:background="@drawable/btn_whitebg"
+        android:layout_marginTop="@dimen/margin_10"
+        android:padding="@dimen/padding_4" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="( 7 ) What is activity and activity lifecycle"
+        android:textColor="@color/purple_700"
+        android:textStyle="bold"
+        android:textSize="@dimen/txt_12"
+        android:textAlignment="textStart"
+        android:background="@drawable/btn_whitebg"
+        android:layout_marginTop="@dimen/margin_10"
+        android:padding="@dimen/padding_4" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="( 8 ) What is fragment and fragment lifecycle"
+        android:textColor="@color/purple_700"
+        android:textStyle="bold"
+        android:textSize="@dimen/txt_12"
+        android:textAlignment="textStart"
+        android:background="@drawable/btn_whitebg"
+        android:layout_marginTop="@dimen/margin_10"
+        android:padding="@dimen/padding_4" />
+
+    <!--<androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="( 9 ) Activity to fragment and fragment to activity"
+        android:textColor="@color/purple_700"
+        android:textStyle="bold"
+        android:textSize="@dimen/txt_12"
+        android:textAlignment="textStart"
+        android:background="@drawable/btn_whitebg"
+        android:layout_marginTop="@dimen/margin_10"
+        android:padding="@dimen/padding_4" />-->
+
+
+</LinearLayout>
