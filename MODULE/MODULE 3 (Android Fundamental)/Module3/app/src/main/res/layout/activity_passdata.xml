@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".PassDataActivity"
-    android:background="@drawable/app_background">
+    android:background="@drawable/app_background"
+    android:padding="@dimen/padding_8">
 
     <TextView
         android:layout_width="match_parent"
@@ -14,9 +15,7 @@
         android:textColor="@color/white"
         android:textSize="@dimen/txt_20"
         android:textAlignment="center"
-        android:layout_marginTop="@dimen/margin_20"
-        android:layout_marginLeft="@dimen/margin_10"
-        android:layout_marginRight="@dimen/margin_10" />
+        android:layout_marginTop="@dimen/margin_20"/>
 
     <EditText
         android:id="@+id/ed_txt"

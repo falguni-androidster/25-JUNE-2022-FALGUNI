@@ -1,5 +1,7 @@
 package com.example.module3
 
+import android.app.AlertDialog
+import android.content.DialogInterface
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -72,5 +74,20 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+    }
+
+    override fun onBackPressed() {
+        AlertDialog.Builder(this)
+            .setTitle("Exit")
+            .setMessage("Do you want close this app?")
+            .setCancelable(false)
+            .setPositiveButton("Exit", DialogInterface.OnClickListener { dialogInterface, i ->
+                dialogInterface.dismiss()
+                finish()
+            })
+            .setNegativeButton("Cancel", DialogInterface.OnClickListener { dialogInterface, i ->
+                dialogInterface.cancel()
+            })
+            .show()
     }
 }
