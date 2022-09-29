@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Module3</string>
+
+    <string-array name="list_question">
+        <item>( 1 ) Create “hello world” application</item>
+        <item>( 2 ) Change screen background color on different button click event</item>
+        <item>( 3 ) Navigate between one screen to another screen</item>
+        <item>( 4 ) Pass data from one screen to second screen</item>
+        <item>( 5 ) Design login and registration screen</item>
+        <item>( 6 ) What is R.java file</item>
+        <item>( 7 ) What is activity and activity lifecycle</item>
+        <item>( 8 ) What is fragment and fragment lifecycle</item>
+        <item>( 9 ) Activity to fragment and fragment to activity</item>
+    </string-array>
+
+    <string name="hello"><u><b>Create “hello world” application</b></u></string>
+    <string name="change_color"><u><b>Change screen background color on different button click event</b></u></string>
+    <string name="navigate_screen"><u><b>Navigate between one screen to another screen</b></u></string>
+    <string name="passdata_screen"><u><b>Pass data from one screen to second screen</b></u></string>
+    <string name="login_screen"><u><b>Design login and registration screen</b></u></string>
+    <string name="rjava"><u><b>What is R.java file</b></u></string>
+    <string name="lifecycle_activity"><u><b>What is activity and activity lifecycle</b></u></string>
+    <string name="lifecycle_fragment"><u><b>What is fragment and fragment lifecycle</b></u></string>
+    <string name="fragment"><u><b>Activity to fragment and fragment to activity</b></u></string>
+</resources>

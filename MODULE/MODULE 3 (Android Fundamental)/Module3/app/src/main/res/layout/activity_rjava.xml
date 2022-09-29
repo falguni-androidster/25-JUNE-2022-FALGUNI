@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RJavaActivity"
+    android:orientation="vertical"
+    android:background="@drawable/app_background"
+    android:padding="@dimen/padding_32">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/rjava"
+        android:textColor="@color/white"
+        android:textSize="@dimen/txt_20"
+        android:textAlignment="center"
+        android:layout_marginTop="@dimen/margin_20" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_60"
+        android:background="@drawable/btn_whitebg"
+        android:padding="@dimen/padding_16"
+        android:text="R.java is an auto-generated file by Android Asset Packaging Tool that contains resource IDs for all the resources of res/ directory. If you create any component in the activity_main.xml file,id for the corresponding component is automatically created in this file. This id can be used in the activity source file to perform any action on the component."
+        android:textColor="@color/purple_700"
+        android:textSize="@dimen/txt_16" />
+
+</LinearLayout>

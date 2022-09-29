@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/app_background"
+    tools:context=".Que2.Que2Activity"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_24">
+
+    <TextView
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:text="@string/que2"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textSize="@dimen/txt_26" />
+
+    <EditText
+        android:id = "@+id/ed_que2_num1"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:hint = "Enter Minimum Number"
+        android:inputType="number"
+        android:textSize="@dimen/txt_26"
+        android:maxLength="8"
+        android:layout_gravity="center_vertical"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:layout_marginTop="100dp"/>
+
+    <EditText
+        android:id="@+id/ed_que2_num2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Maximum Number"
+        android:inputType="number"
+        android:maxLength="8"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="@dimen/txt_26"
+        android:layout_marginTop="@dimen/margin_40"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_que2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_12"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/margin_60"
+        android:text="Next Activity"
+        android:textSize="@dimen/txt_20"
+        android:textColor="@color/teal_700"
+        android:textStyle="bold"
+        android:background="@drawable/btn_bg_white"/>
+
+</LinearLayout>

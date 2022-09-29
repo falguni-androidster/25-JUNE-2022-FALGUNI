@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:orientation="vertical"
+    android:background="@drawable/app_background">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="52sp"
+        android:textAlignment="center"
+        android:layout_marginTop="150dp"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:textColor="@color/white"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/btn_whitebg"
+        android:layout_margin="@dimen/margin_20"
+        android:padding="@dimen/padding_8">
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="30dp"
+            android:layout_weight="3.5"
+            android:background="@drawable/ic_baseline_email_24"
+            android:layout_gravity="center"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ed_email"
+            android:hint="Enter Email"
+            android:textColor="@color/purple_700"
+            android:textColorHint="@color/purple_700"
+            android:inputType="textWebEmailAddress"
+            android:layout_weight="1"
+            android:layout_marginStart="@dimen/margin_10"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_whitebg"
+        android:layout_marginLeft="@dimen/margin_20"
+        android:layout_marginRight="@dimen/margin_20"
+        android:padding="@dimen/padding_8"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_show"
+            android:layout_width="140dp"
+            android:layout_height="30dp"
+            android:layout_weight="3.5"
+            android:background="@drawable/ic_baseline_lock_24"
+            android:layout_gravity="center"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ed_pwd"
+            android:hint="Enter Password"
+            android:textColor="@color/purple_700"
+            android:textColorHint="@color/purple_700"
+            android:inputType="textWebPassword"
+            android:layout_weight="1"
+            android:layout_marginStart="@dimen/margin_10"
+            android:textFontWeight="1"
+            android:maxLength="8"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_signin"
+            android:text="SIGN IN"
+            android:textSize="@dimen/txt_16"
+            android:background="@drawable/btn_bluebg"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/margin_20" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_reset"
+            android:text="reset"
+            android:textSize="@dimen/txt_16"
+            android:background="@drawable/btn_bluebg"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/margin_20"/>
+
+    </LinearLayout>
+
+</LinearLayout>

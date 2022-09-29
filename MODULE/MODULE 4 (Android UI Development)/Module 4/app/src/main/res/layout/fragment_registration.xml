@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Que4.RegistrationFragment"
+    android:orientation="vertical"
+    android:background="@mipmap/app_background">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registration"
+        android:textSize="52sp"
+        android:textAlignment="center"
+        android:layout_marginTop="@dimen/margin_60"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:textColor="@color/teal_700"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/teal_700">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ed_fname"
+            android:layout_margin="10dp"
+            android:padding="20dp"
+            android:hint="Enter First Name"
+            android:textColor="@color/teal_700"
+            android:textColorHint="@color/teal_700"
+            android:inputType="textPersonName"
+            android:textFontWeight="1"
+            android:maxLength="8"
+            android:drawablePadding="20dp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/teal_700">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ed_lname"
+            android:layout_margin="10dp"
+            android:padding="20dp"
+            android:hint="Enter Last Name"
+            android:textColor="@color/teal_700"
+            android:textColorHint="@color/teal_700"
+            android:inputType="textWebPassword"
+            android:textFontWeight="1"
+            android:maxLength="8"
+            android:drawablePadding="20dp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/teal_700">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ed_email"
+            android:layout_margin="10dp"
+            android:padding="20dp"
+            android:hint="Enter Email"
+            android:textColor="@color/teal_700"
+            android:textColorHint="@color/teal_700"
+            android:inputType="textWebEmailAddress"
+            android:drawablePadding="20dp"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/teal_700">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ed_pwd"
+            android:layout_margin="10dp"
+            android:padding="20dp"
+            android:hint="Enter Password"
+            android:textColor="@color/teal_700"
+            android:textColorHint="@color/teal_700"
+            android:inputType="textWebPassword"
+            android:textFontWeight="1"
+            android:maxLength="8"
+            android:drawablePadding="20dp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_signin"
+            android:text="registration"
+            android:background="@color/teal_700"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            android:layout_margin="20dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_reset"
+            android:text="RESET"
+            android:background="@color/teal_700"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            android:layout_margin="20dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
