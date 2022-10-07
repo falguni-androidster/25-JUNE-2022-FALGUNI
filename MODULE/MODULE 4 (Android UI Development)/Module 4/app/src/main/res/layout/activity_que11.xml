@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Que11.Que11Activity"
+    android:orientation="vertical"
+    android:background="@mipmap/app_background"
+    android:padding="@dimen/padding_24">
+
+    <TextView
+        android:id="@+id/tv_que11_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/que11"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/txt_20" />
+
+    <TextView
+        android:id="@+id/tv_que11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="KOTLIN"
+        android:textColor="@color/white"
+        android:textSize="@dimen/txt_26"
+        android:layout_below="@+id/tv_que11_title"
+        android:layout_above="@+id/linear_que11"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerInParent="true"
+        android:id="@+id/linear_que11">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_que11_plus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="@dimen/padding_12"
+            android:layout_gravity="center"
+            android:text="plus"
+            android:textSize="@dimen/txt_20"
+            android:textColor="@color/teal_700"
+            android:textStyle="bold"
+            android:background="@drawable/btn_bg_white"
+            android:layout_margin="@dimen/margin_10"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_que11_minus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="@dimen/padding_12"
+            android:layout_gravity="center"
+            android:text="minus"
+            android:textSize="@dimen/txt_20"
+            android:textColor="@color/teal_700"
+            android:textStyle="bold"
+            android:background="@drawable/btn_bg_white"
+            android:layout_margin="@dimen/margin_10"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

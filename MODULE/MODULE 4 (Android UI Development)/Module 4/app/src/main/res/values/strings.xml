@@ -6,6 +6,25 @@
     <string name="que2"><u><b>All numbers between those 2 numbers in next activity</b></u></string>
     <string name="que3"><u><b>Print result as per user choice from radio button in TextView</b></u></string>
     <string name="que4"><u><b>Login and registration form on single activity using fragment</b></u></string>
+    <string name="que5"><u><b>To load google url into webview also manage forward and backward redirect</b></u></string>
+    <string name="que6"><u><b>To check weather internet connection is available or not if</b></u></string>
+    <string name="que7"><u><b>No internet connection then display message accordingly</b></u></string>
+    <string name="que8"><u><b>To hide TextView when first button click and show when second button click</b></u></string>
+    <string name="que9"><u><b>To add TextView in TableLayout Programmatically</b></u></string>
+    <string name="que10"><u><b>To open pdf using implicit intent</b></u></string>
+    <string name="que11"><u><b>To increase font size when plus button click and decrease when minus button click</b></u></string>
+    <string name="que12"><u><b>To display n edittext where n is number input by user</b></u></string>
+    <string name="que13"><u><b>To display Textview when checkbox is checked and hide</b></u></string>
+    <string name="que14"><u><b>To create one string array in string.xml file and that array show in listview</b></u></string>
+    <string name="que15"><u><b>Display screen color which the Color will be select from the radio button</b></u></string>
+    <string name="que16"><u><b>Three Seekbar which Seek bar value changed the background color of device will be changed</b></u></string>
+    <string name="que17"><u><b>Create toolbar with spinner and search functionality</b></u></string>
+
+
+    <string name="id"><b>ID</b></string>
+    <string name="marks"><b>MARKS</b></string>
+    <string name="language"><b>LANGUAGE</b></string>
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 

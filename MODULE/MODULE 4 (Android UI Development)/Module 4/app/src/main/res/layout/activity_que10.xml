@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Que10.Que10Activity"
+    android:background="@mipmap/app_background"
+    android:padding="@dimen/padding_24">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/que10"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/txt_20" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_que10_openpdf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_10"
+        android:text="open pdf"
+        android:textSize="@dimen/txt_20"
+        android:textColor="@color/teal_700"
+        android:textStyle="bold"
+        android:background="@drawable/btn_bg_white"
+        android:layout_margin="@dimen/margin_60"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>

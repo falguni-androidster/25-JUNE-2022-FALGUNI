@@ -12,6 +12,7 @@ class Que3Activity : AppCompatActivity() {
 
     lateinit var rglist : RadioGroup
     lateinit var radioButton : RadioButton
+
     lateinit var ednum1 : EditText
     lateinit var ednum2 : EditText
 
@@ -57,7 +58,5 @@ class Que3Activity : AppCompatActivity() {
                 }
             }
         }
-
-
     }
 }

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Que13.Que13Activity"
+    android:background="@mipmap/app_background"
+    android:padding="@dimen/padding_24">
+
+    <TextView
+        android:id="@+id/tv_que13_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/que13"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/txt_20" />
+
+    <CheckBox
+        android:id="@+id/cb_que13"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="KOTLIN"
+        android:textColor="@color/white"
+        android:textSize="@dimen/txt_26"
+        android:textStyle="bold"
+        android:layout_below="@+id/tv_que13_title"
+        android:layout_above="@+id/tv_que13"
+        android:padding="@dimen/padding_24"/>
+
+    <TextView
+        android:id="@+id/tv_que13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="@dimen/txt_26"
+        android:text="KOTLIN"
+        android:visibility="invisible"
+        android:layout_centerInParent="true"
+        android:gravity="center"/>
+
+</RelativeLayout>

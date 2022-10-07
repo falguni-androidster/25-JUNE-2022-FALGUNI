@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Listview-->
+    <string-array name="que">
+        <item>Reverse Number Without Button</item>
+        <item>All numbers between those 2 numbers in next activity</item>
+        <item>Print result as per user choice from radio button in TextView</item>
+        <item>Login and registration form on single activity using fragment</item>
+        <item>To load google url into webview also manage forward and backward redirect</item>
+        <item>To check weather internet connection is available or not if</item>
+        <item>No internet connection then display message accordingly</item>
+        <item>To hide TextView when first button click and show when second button click</item>
+        <item>To add TextView in TableLayout Programmatically</item>
+        <item>To open pdf using implicit intent</item>
+        <item>To increase font size when plus button click and decrease when minus button click</item>
+        <item>To display n edittext where n is number input by user</item>
+        <item>To display Textview when checkbox is checked and hide</item>
+        <item>To create one string array in string.xml file and that array show in listview</item>
+        <item>Display screen color which the Color will be select from the radio button</item>
+        <item>Three Seekbar which Seek bar value changed the background color of device will be changed</item>
+        <item>Create toolbar with spinner and search functionality</item>
+    </string-array>
+
+    <!--Spinner-->
+    <string-array name="category">
+        <item>Top News</item>
+        <item>Business</item>
+        <item>Politics</item>
+        <item>Sports</item>
+        <item>Technology</item>
+        <item>Movies</item>
+    </string-array>
+</resources>
