@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/purple_700"
+    tools:context=".RegistrationActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registration"
+        android:textSize="52sp"
+        android:textAlignment="center"
+        android:layout_marginTop="100dp"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:textColor="@color/white"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed_username"
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        android:hint="Enter Username"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:backgroundTint="@color/white"
+        android:inputType="text"
+        android:drawablePadding="20dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed_email"
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        android:hint="Enter Email"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:inputType="textEmailAddress"
+        android:textFontWeight="1"
+        android:drawablePadding="20dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed_password"
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        android:hint="Enter Password"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:backgroundTint="@color/white"
+        android:inputType="textWebPassword"
+        android:textFontWeight="1"
+        android:maxLength="8"
+        android:drawablePadding="20dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_registration"
+        android:text="Signup"
+        android:background="@color/white"
+        android:textColor="@color/purple_700"
+        android:layout_margin="20dp"
+        android:padding="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_loginlink"
+        android:layout_margin="10dp"
+        android:textColor="@color/white"
+        android:text="Already register | Click Here"
+        android:textAlignment="center"/>
+
+</LinearLayout>
