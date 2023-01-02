@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context=".PlaySongFromResource.ResourcePlaySongActivity">
+
+    <TextView
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:text="@string/que1"
+        android:textColor="@color/purple_700"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:text="Dard hi marham sa....."
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:layout_margin="40dp"
+        android:padding="20dp"/>
+
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/btn_resource_play"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_baseline_play_arrow_24"/>
+
+</LinearLayout>

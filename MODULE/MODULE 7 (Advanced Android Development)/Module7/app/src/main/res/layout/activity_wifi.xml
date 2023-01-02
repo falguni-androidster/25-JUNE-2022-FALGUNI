@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Wifi.WifiActivity"
+    android:orientation="vertical"
+    android:background="@color/background">
+
+    <TextView
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:text="@string/que6"
+        android:textColor="@color/purple_700"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:layout_margin="10dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_wifi_on"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wifi On"
+        android:background="@color/purple_700"
+        android:textColor="@color/white"
+        android:layout_margin="60dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_wifi_off"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wifi Off"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginBottom="60dp"
+        android:background="@color/purple_700"
+        android:textColor="@color/white"/>
+
+</LinearLayout>

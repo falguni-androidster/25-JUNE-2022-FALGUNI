@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context=".TextToSpeech.TTSActivity">
+
+    <TextView
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:text="@string/que5"
+        android:textColor="@color/purple_700"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed_ttsdata"
+        android:layout_margin="40dp"
+        android:hint="Enter Data"
+        android:textColor="@color/purple_700"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/iv_tts"
+        android:text="Text to Speech"
+        android:textColor="@color/white"
+        android:background="@color/purple_700"
+        android:layout_margin="40dp"/>
+
+</LinearLayout>

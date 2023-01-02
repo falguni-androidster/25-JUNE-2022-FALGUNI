@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Module 7</string>
+
+    <string name="que1"><u><b>Create an application to play song from raw resource folder</b></u></string>
+    <string name="que2"><u><b>Create an application to play song from mobile memory</b></u></string>
+    <string name="que3"><u><b>Create an application to play song from Server</b></u></string>
+    <string name="que4"><u><b>Use WAKE LOCK when playing video play</b></u></string>
+    <string name="que5"><u><b>Create an application to convert text typed in edit text into speech</b></u></string>
+    <string name="que6"><u><b>Create an application for Wi-Fi on-off</b></u></string>
+
+</resources>
