@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PassDataActivity"
+    tools:context=".que4.PassDataActivity"
     android:background="@drawable/app_background"
     android:padding="@dimen/padding_8">
 
@@ -38,7 +38,7 @@
         android:layout_marginStart="@dimen/margin_20"
         android:layout_marginTop="@dimen/margin_60"
         android:layout_marginEnd="@dimen/margin_20"
-        android:background="@drawable/btn_whitebg"
+        android:background="@drawable/btn_white_bg"
         android:padding="@dimen/padding_8"
         android:text="passdata click here"
         android:textColor="@color/purple_700"

@@ -5,21 +5,28 @@ import android.content.DialogInterface
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.AdapterView
-import android.widget.ArrayAdapter
-import android.widget.ListView
 import androidx.appcompat.widget.AppCompatButton
+import com.example.module3.que1.HelloActivity
+import com.example.module3.que2.ChangeBackgroundActivity
+import com.example.module3.que3.NavigateScreenActivity
+import com.example.module3.que4.PassDataActivity
+import com.example.module3.que5.LoginAndRegistrationActivity
+import com.example.module3.que6.RJavaActivity
+import com.example.module3.que7.LifecycleActivity
+import com.example.module3.que8.FragmentLifecycleActivity
+import com.example.module3.que9.AtoFActivity
 
 class MainActivity : AppCompatActivity() {
 
     lateinit var btnhello : AppCompatButton
     lateinit var btnchangebg : AppCompatButton
-    lateinit var btnnavigatesceen : AppCompatButton
+    lateinit var btnNavigateScreen : AppCompatButton
     lateinit var btnpassdata : AppCompatButton
     lateinit var btnlogin : AppCompatButton
     lateinit var btnrjava : AppCompatButton
     lateinit var btnlifecycleactivity : AppCompatButton
     lateinit var btnlifecyclefragment : AppCompatButton
+    lateinit var btnactivitytofragment : AppCompatButton
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -27,50 +34,58 @@ class MainActivity : AppCompatActivity() {
 
         btnhello = findViewById(R.id.btn_1)
         btnchangebg = findViewById(R.id.btn_2)
-        btnnavigatesceen = findViewById(R.id.btn_3)
+        btnNavigateScreen = findViewById(R.id.btn_3)
         btnpassdata = findViewById(R.id.btn_4)
         btnlogin = findViewById(R.id.btn_5)
         btnrjava = findViewById(R.id.btn_6)
         btnlifecycleactivity = findViewById(R.id.btn_7)
         btnlifecyclefragment = findViewById(R.id.btn_8)
+        btnactivitytofragment = findViewById(R.id.btn_9)
+
+        var intent : Intent
 
         btnhello.setOnClickListener {
-            var intent = Intent(MainActivity@this,HelloActivity::class.java)
+            intent = Intent(this, HelloActivity::class.java)
             startActivity(intent)
         }
 
         btnchangebg.setOnClickListener {
-            var intent = Intent(MainActivity@this,ChangeBackgroundActivity::class.java)
+            intent = Intent(this, ChangeBackgroundActivity::class.java)
             startActivity(intent)
         }
 
-        btnnavigatesceen.setOnClickListener {
-            var intent = Intent(MainActivity@this,NavigateScreenActivity::class.java)
+        btnNavigateScreen.setOnClickListener {
+            intent = Intent(this, NavigateScreenActivity::class.java)
             startActivity(intent)
         }
 
         btnpassdata.setOnClickListener {
-            var intent = Intent(MainActivity@this,PassDataActivity::class.java)
+            intent = Intent(this, PassDataActivity::class.java)
             startActivity(intent)
         }
 
         btnlogin.setOnClickListener {
-            var intent = Intent(MainActivity@this,LandRActivity::class.java)
+            intent = Intent(this, LoginAndRegistrationActivity::class.java)
             startActivity(intent)
         }
 
         btnrjava.setOnClickListener {
-            var intent = Intent(MainActivity@this,RJavaActivity::class.java)
+            intent = Intent(this, RJavaActivity::class.java)
             startActivity(intent)
         }
 
         btnlifecycleactivity.setOnClickListener {
-            var intent = Intent(MainActivity@this,LifecycleActivity::class.java)
+            intent = Intent(this, LifecycleActivity::class.java)
             startActivity(intent)
         }
 
         btnlifecyclefragment.setOnClickListener {
-            var intent = Intent(MainActivity@this,FragmentLifecycleActivity::class.java)
+            intent = Intent(this, FragmentLifecycleActivity::class.java)
+            startActivity(intent)
+        }
+
+        btnactivitytofragment.setOnClickListener {
+            intent = Intent(this,AtoFActivity :: class.java)
             startActivity(intent)
         }
 

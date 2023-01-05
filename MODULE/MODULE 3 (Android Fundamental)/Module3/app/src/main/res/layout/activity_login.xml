@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LoginActivity"
+    tools:context=".que5.LoginActivity"
     android:orientation="vertical"
     android:background="@drawable/app_background">
 
@@ -23,7 +23,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:background="@drawable/btn_whitebg"
+        android:background="@drawable/btn_white_bg"
         android:layout_margin="@dimen/margin_20"
         android:padding="@dimen/padding_8">
 
@@ -50,7 +50,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/btn_whitebg"
+        android:background="@drawable/btn_white_bg"
         android:layout_marginLeft="@dimen/margin_20"
         android:layout_marginRight="@dimen/margin_20"
         android:padding="@dimen/padding_8"
@@ -90,7 +90,7 @@
             android:id="@+id/btn_signin"
             android:text="SIGN IN"
             android:textSize="@dimen/txt_16"
-            android:background="@drawable/btn_bluebg"
+            android:background="@drawable/btn_blue_bg"
             android:textColor="@color/white"
             android:layout_weight="1"
             android:layout_margin="@dimen/margin_20" />
@@ -101,7 +101,7 @@
             android:id="@+id/btn_reset"
             android:text="reset"
             android:textSize="@dimen/txt_16"
-            android:background="@drawable/btn_bluebg"
+            android:background="@drawable/btn_blue_bg"
             android:textColor="@color/white"
             android:layout_weight="1"
             android:layout_margin="@dimen/margin_20"/>

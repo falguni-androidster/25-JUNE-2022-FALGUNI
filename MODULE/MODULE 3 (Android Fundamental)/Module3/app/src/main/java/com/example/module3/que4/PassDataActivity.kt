@@ -1,10 +1,11 @@
-package com.example.module3
+package com.example.module3.que4
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.EditText
 import androidx.appcompat.widget.AppCompatButton
+import com.example.module3.R
 
 class PassDataActivity : AppCompatActivity() {
 
@@ -19,7 +20,7 @@ class PassDataActivity : AppCompatActivity() {
         btnpassdata = findViewById(R.id.btn_passdata)
 
         btnpassdata.setOnClickListener {
-            var intent = Intent(this,PassData2Activity::class.java)
+            var intent = Intent(this, PassData2Activity::class.java)
             intent.putExtra("passdata",edtxt.text.toString())
             startActivity(intent)
             finish()

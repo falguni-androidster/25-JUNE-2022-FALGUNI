@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LandRActivity"
+    tools:context=".que5.LoginAndRegistrationActivity"
     android:background="@drawable/app_background">
 
     <TextView
@@ -27,7 +27,7 @@
         android:textStyle="bold"
         android:textSize="@dimen/txt_16"
         android:textAlignment="center"
-        android:background="@drawable/btn_whitebg"
+        android:background="@drawable/btn_white_bg"
         android:padding="@dimen/padding_16"
         android:layout_marginStart="@dimen/margin_40"
         android:layout_marginEnd="@dimen/margin_40"
@@ -42,7 +42,7 @@
         android:textStyle="bold"
         android:textSize="@dimen/txt_16"
         android:textAlignment="center"
-        android:background="@drawable/btn_whitebg"
+        android:background="@drawable/btn_white_bg"
         android:padding="@dimen/padding_16"
         android:layout_below="@+id/btn_loginscreen"
         android:layout_margin="@dimen/margin_40"/>

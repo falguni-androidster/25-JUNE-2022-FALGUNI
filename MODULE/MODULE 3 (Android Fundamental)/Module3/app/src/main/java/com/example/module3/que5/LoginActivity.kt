@@ -1,4 +1,4 @@
-package com.example.module3
+package com.example.module3.que5
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -9,6 +9,7 @@ import android.widget.EditText
 import android.widget.ImageView
 import android.widget.Toast
 import androidx.appcompat.widget.AppCompatButton
+import com.example.module3.R
 
 class LoginActivity : AppCompatActivity() {
 
@@ -51,7 +52,7 @@ class LoginActivity : AppCompatActivity() {
             if((edemail.text.isEmpty()) || (edpwd.text.isEmpty())){
                 Toast.makeText(this, "Enter Details required", Toast.LENGTH_SHORT).show()
             }else{
-                var intent = Intent(ActivityAug6@this,LandRActivity::class.java)
+                var intent = Intent(ActivityAug6@this, LoginAndRegistrationActivity::class.java)
                 startActivity(intent)
                 finish()
             }

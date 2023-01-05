@@ -1,9 +1,10 @@
-package com.example.module3
+package com.example.module3.que2
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.LinearLayout
 import androidx.appcompat.widget.AppCompatButton
+import com.example.module3.R
 
 class ChangeBackgroundActivity : AppCompatActivity() {
 

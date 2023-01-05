@@ -1,10 +1,11 @@
-package com.example.module3
+package com.example.module3.que4
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
 import androidx.appcompat.widget.AppCompatButton
+import com.example.module3.R
 
 class PassData2Activity : AppCompatActivity() {
 
@@ -24,7 +25,7 @@ class PassData2Activity : AppCompatActivity() {
         tvdisplay.text = getdata
 
         btnbackscreen.setOnClickListener {
-            var intent = Intent(this,PassDataActivity::class.java)
+            var intent = Intent(this, PassDataActivity::class.java)
             startActivity(intent)
             finish()
         }

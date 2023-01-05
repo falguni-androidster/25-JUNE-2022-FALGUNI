@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RegistrationActivity"
+    tools:context=".que5.RegistrationActivity"
     android:orientation="vertical"
     android:background="@drawable/app_background"
     android:padding="@dimen/padding_24">
@@ -34,7 +34,7 @@
             android:textColor="@color/purple_700"
             android:textColorHint="@color/purple_700"
             android:inputType="textPersonName"
-            android:background="@drawable/btn_whitebg"
+            android:background="@drawable/btn_white_bg"
             android:padding="@dimen/padding_16"
             android:layout_marginTop="@dimen/margin_20" />
 
@@ -47,7 +47,7 @@
             android:textColorHint="@color/purple_700"
             android:inputType="textPersonName"
             android:padding="@dimen/padding_16"
-            android:background="@drawable/btn_whitebg"
+            android:background="@drawable/btn_white_bg"
             android:layout_marginTop="@dimen/margin_10" />
 
         <EditText
@@ -59,7 +59,7 @@
             android:textColorHint="@color/purple_700"
             android:inputType="textPersonName"
             android:padding="@dimen/padding_16"
-            android:background="@drawable/btn_whitebg"
+            android:background="@drawable/btn_white_bg"
             android:layout_marginTop="@dimen/margin_10" />
 
         <EditText
@@ -71,7 +71,7 @@
             android:textColorHint="@color/purple_700"
             android:inputType="textEmailAddress"
             android:padding="@dimen/padding_16"
-            android:background="@drawable/btn_whitebg"
+            android:background="@drawable/btn_white_bg"
             android:layout_marginTop="@dimen/margin_10" />
 
         <EditText
@@ -84,7 +84,7 @@
             android:inputType="textVisiblePassword"
             android:padding="@dimen/padding_16"
             android:maxEms="8"
-            android:background="@drawable/btn_whitebg"
+            android:background="@drawable/btn_white_bg"
             android:layout_marginTop="@dimen/margin_10" />
 
 
@@ -101,7 +101,7 @@
             android:id="@+id/btn_register"
             android:text="register"
             android:textSize="@dimen/txt_16"
-            android:background="@drawable/btn_bluebg"
+            android:background="@drawable/btn_blue_bg"
             android:textColor="@color/white"
             android:layout_weight="1"
             android:layout_margin="@dimen/margin_20" />
@@ -112,7 +112,7 @@
             android:id="@+id/btn_cancel"
             android:text="cancel"
             android:textSize="@dimen/txt_16"
-            android:background="@drawable/btn_bluebg"
+            android:background="@drawable/btn_blue_bg"
             android:textColor="@color/white"
             android:layout_weight="1"
             android:layout_margin="@dimen/margin_20"/>

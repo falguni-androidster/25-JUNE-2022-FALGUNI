@@ -1,17 +1,16 @@
 <resources>
-    <string name="app_name">Module3</string>
+    <string name="app_name">Module 3</string>
 
-    <string-array name="list_question">
-        <item>( 1 ) Create “hello world” application</item>
-        <item>( 2 ) Change screen background color on different button click event</item>
-        <item>( 3 ) Navigate between one screen to another screen</item>
-        <item>( 4 ) Pass data from one screen to second screen</item>
-        <item>( 5 ) Design login and registration screen</item>
-        <item>( 6 ) What is R.java file</item>
-        <item>( 7 ) What is activity and activity lifecycle</item>
-        <item>( 8 ) What is fragment and fragment lifecycle</item>
-        <item>( 9 ) Activity to fragment and fragment to activity</item>
-    </string-array>
+    <string name="que1">( 1 ) Create “hello world” application</string>
+    <string name="que2">( 2 ) Change screen background color on different button click event</string>
+    <string name="que3">( 3 ) Navigate between one screen to another screen</string>
+    <string name="que4">( 4 ) Pass data from one screen to second screen</string>
+    <string name="que5">( 5 ) Design login and registration screen</string>
+    <string name="que6">( 6 ) What is R.java file</string>
+    <string name="que7">( 7 ) What is activity and activity lifecycle</string>
+    <string name="que8">( 8 ) What is fragment and fragment lifecycle</string>
+    <string name="que9">( 9 ) Activity to fragment and fragment to activity</string>
+
 
     <string name="hello"><u><b>Create “hello world” application</b></u></string>
     <string name="change_color"><u><b>Change screen background color on different button click event</b></u></string>
@@ -22,4 +21,7 @@
     <string name="lifecycle_activity"><u><b>What is activity and activity lifecycle</b></u></string>
     <string name="lifecycle_fragment"><u><b>What is fragment and fragment lifecycle</b></u></string>
     <string name="fragment"><u><b>Activity to fragment and fragment to activity</b></u></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>

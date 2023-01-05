@@ -1,9 +1,10 @@
-package com.example.module3
+package com.example.module3.que3
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.appcompat.widget.AppCompatButton
+import com.example.module3.R
 
 class NavigateScreenActivity : AppCompatActivity() {
 
@@ -16,7 +17,7 @@ class NavigateScreenActivity : AppCompatActivity() {
         btnscreen1 = findViewById(R.id.btn_screen1)
 
         btnscreen1.setOnClickListener {
-            var intent = Intent(this,NavigateScreen2Activity::class.java)
+            var intent = Intent(this, NavigateScreen2Activity::class.java)
             startActivity(intent)
             finish()
         }
