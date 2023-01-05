@@ -20,19 +20,16 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />-->
         <activity
-            android:name=".Que6.FrameAnimActivity"
+            android:name=".Que5.FrameAnimActivity"
             android:exported="false"/>
         <activity
-            android:name=".Que5.MoveZoomImageActivity"
+            android:name=".Que4.MoveZoomImageActivity"
             android:exported="false"/>
         <activity
-            android:name=".Que4.RotateBlinkImageActivity"
+            android:name=".Que3.RotateBlinkImageActivity"
             android:exported="false"/>
         <activity
-            android:name=".Que3.FindPlaceActivity"
-            android:exported="false"/>
-        <activity
-            android:name=".Que2.MarkerActivity"
+            android:name=".Que2.NotificationActivity"
             android:exported="false"/>
         <activity
             android:name=".Que1.GooglemapActivity"
@@ -49,6 +46,13 @@
         <activity
             android:name=".MainActivity"
             android:exported="false" />
+
+        <!--<service android:name="FirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>-->
     </application>
 
 </manifest>

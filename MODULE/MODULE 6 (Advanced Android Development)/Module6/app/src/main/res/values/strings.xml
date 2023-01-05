@@ -3,8 +3,8 @@
 
     <string name="que1"><u><b>To display Google map with current location also give options to change mode in map</b></u></string>
     <string name="que2"><u><b>Service provide by google</b></u></string>
-    <string name="que4"><u><b>Write a code to rotate image Write a code to blink image</b></u></string>
-    <string name="que5"><u><b>Write a code to move image from one place to another place Write a code to zoom in / out image using animation</b></u></string>
-    <string name="que6"><u><b>Write a code to show progress frame by frame animation</b></u></string>
+    <string name="que3"><u><b>Write a code to rotate image Write a code to blink image</b></u></string>
+    <string name="que4"><u><b>Write a code to move image from one place to another place Write a code to zoom in / out image using animation</b></u></string>
+    <string name="que5"><u><b>Write a code to show progress frame by frame animation</b></u></string>
 
 </resources>

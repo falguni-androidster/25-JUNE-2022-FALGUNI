@@ -6,11 +6,10 @@ import android.view.*
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.module6.Que1.GooglemapActivity
-import com.example.module6.Que2.MarkerActivity
-import com.example.module6.Que3.FindPlaceActivity
-import com.example.module6.Que4.RotateBlinkImageActivity
-import com.example.module6.Que5.MoveZoomImageActivity
-import com.example.module6.Que6.FrameAnimActivity
+import com.example.module6.Que2.NotificationActivity
+import com.example.module6.Que3.RotateBlinkImageActivity
+import com.example.module6.Que4.MoveZoomImageActivity
+import com.example.module6.Que5.FrameAnimActivity
 
 class ListAdapter(var context: Context, var arrayList: ArrayList<ListModel>) : RecyclerView.Adapter<ListAdapter.Myclass>() {
 
@@ -30,18 +29,15 @@ class ListAdapter(var context: Context, var arrayList: ArrayList<ListModel>) : R
                 intent = Intent(context, GooglemapActivity :: class.java)
                 context.startActivity(intent)
             }else if (position == 1){
-                intent = Intent(context, MarkerActivity :: class.java)
+                intent = Intent(context, NotificationActivity :: class.java)
                 context.startActivity(intent)
             }else if (position == 2){
-                intent = Intent(context, FindPlaceActivity :: class.java)
-                context.startActivity(intent)
-            }else if (position == 3){
                 intent = Intent(context, RotateBlinkImageActivity :: class.java)
                 context.startActivity(intent)
-            }else if (position == 4){
+            }else if (position == 3){
                 intent = Intent(context, MoveZoomImageActivity :: class.java)
                 context.startActivity(intent)
-            }else if (position == 5){
+            }else if (position == 4){
                 intent = Intent(context, FrameAnimActivity :: class.java)
                 context.startActivity(intent)
             }

@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:CircleProgressView="http://schemas.android.com/apk/res-auto"
-    tools:context=".Que6.FrameAnimActivity"
+    tools:context=".Que5.FrameAnimActivity"
     android:orientation="vertical"
     android:background="@color/purple_200">
 

@@ -1,8 +1,7 @@
-package com.example.module6.Que6
+package com.example.module6.Que5
 
 import android.animation.ValueAnimator
 import android.os.Bundle
-import android.util.DisplayMetrics
 import android.view.animation.LinearInterpolator
 import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
