@@ -1,4 +1,4 @@
-package com.example.module6.Que2
+package com.example.module6
 
 import android.app.NotificationChannel
 import android.app.NotificationManager
@@ -8,22 +8,21 @@ import android.content.Intent
 import android.os.Build
 import android.widget.RemoteViews
 import androidx.core.app.NotificationCompat
-import com.example.module6.R
 import com.google.firebase.messaging.RemoteMessage
 
 const val channelID = "notification_channel"
-const val channelName = "com.example.module6.Que2"
+const val channelName = "com.example.module6"
 
-class FirebaseMessagingService : com.google.firebase.messaging.FirebaseMessagingService(){
+class FirebaseMessagingService : com.google.firebase.messaging.FirebaseMessagingService() {
 
     fun getRemoteView(title:String): RemoteViews {
-        var remoteView = RemoteViews(channelName, R.layout.notification_layout)
+        var remoteView = RemoteViews(channelName,R.layout.notification_layout)
         remoteView.setTextViewText(R.id.tv_title,title)
         return remoteView
     }
 
     fun generateNotification(title:String){
-        var intent = Intent(this,NotificationActivity::class.java)
+        var intent = Intent(this,MainActivity::class.java)
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK)
 
         var pendingIntent = PendingIntent.getActivity(this,0,intent, PendingIntent.FLAG_ONE_SHOT)
