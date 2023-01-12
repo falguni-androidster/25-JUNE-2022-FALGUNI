@@ -19,10 +19,9 @@ class MainActivity : AppCompatActivity() {
         var list = ArrayList<ListModel>()
         list.add(ListModel("( 1 ) Create an application to display Google map with current location also give options to change mode in map"))
         list.add(ListModel("( 2 ) Notification Service "))
-        list.add(ListModel("( 3 ) Create an application to suggest places as user type with help of Place autocomplete"))
-        list.add(ListModel("( 4 ) Write a code to rotate image Write a code to blink image"))
-        list.add(ListModel("( 5 ) Write a code to move image from one place to another place Write a code to zoom in / out image using animation"))
-        list.add(ListModel("( 6 ) Write a code to show progress frame by frame animation"))
+        list.add(ListModel("( 3 ) Write a code to rotate image Write a code to blink image"))
+        list.add(ListModel("( 4 ) Write a code to move image from one place to another place Write a code to zoom in / out image using animation"))
+        list.add(ListModel("( 5 ) Write a code to show progress frame by frame animation"))
 
         /* Recycler View */
         recyclerList = findViewById(R.id.rv_list)

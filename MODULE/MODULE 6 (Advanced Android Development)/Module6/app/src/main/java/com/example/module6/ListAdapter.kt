@@ -5,7 +5,7 @@ import android.content.Intent
 import android.view.*
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.module6.Que1.GooglemapActivity
+import com.example.module6.Que1.GoogleMapsActivity
 import com.example.module6.Que2.NotificationActivity
 import com.example.module6.Que3.RotateBlinkImageActivity
 import com.example.module6.Que4.MoveZoomImageActivity
@@ -26,7 +26,7 @@ class ListAdapter(var context: Context, var arrayList: ArrayList<ListModel>) : R
         holder.tvrecycler.text = viewholder.textView
         holder.tvrecycler.setOnClickListener {
             if (position == 0){
-                intent = Intent(context, GooglemapActivity :: class.java)
+                intent = Intent(context, GoogleMapsActivity :: class.java)
                 context.startActivity(intent)
             }else if (position == 1){
                 intent = Intent(context, NotificationActivity :: class.java)

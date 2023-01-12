@@ -16,4 +16,13 @@
         android:textSize="20sp"
         android:layout_margin="10dp"/>
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Firebase Notification Service"
+        android:textColor="@color/teal_200"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:layout_margin="40dp"/>
+
 </LinearLayout>

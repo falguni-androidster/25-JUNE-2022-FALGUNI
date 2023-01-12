@@ -6,5 +6,6 @@
     <string name="que3"><u><b>Write a code to rotate image Write a code to blink image</b></u></string>
     <string name="que4"><u><b>Write a code to move image from one place to another place Write a code to zoom in / out image using animation</b></u></string>
     <string name="que5"><u><b>Write a code to show progress frame by frame animation</b></u></string>
+    <string name="title_activity_google_maps">GoogleMapsActivity</string>
 
 </resources>
